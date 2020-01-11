@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="243dp"
+        android:text="@string/sign_ups"
+
+
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Uname"
+        android:layout_marginTop="294dp"
+        android:hint="@string/username"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/email"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="341dp"
+        android:hint="@string/emailid"
+        android:textSize="18sp" />
+
+
+    <EditText
+        android:id="@+id/Pword"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="390dp"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/CNFPword"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="438dp"
+        android:inputType="textPassword"
+        android:hint="@string/confirm_password"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/snp"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginBottom="209dp"
+        android:background="@drawable/input_design"
+        android:text="@string/sign_up"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

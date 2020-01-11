@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pentoz</string>
+    <string name="free_music_application">Free Music Application</string>
+    <string name="we_can_all_think_of_at_least_one_song_that_when_we_hear_it_triggers_and_emotional_response_it_might_be_a_song_tha">We can all think of at least one song that, when we hear it, triggers and emotional response. It might be a song tha.</string>
+    <string name="get">GET STARTED</string>
+    <string name="log_in">LOG IN</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="remember_me">Remember me</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? SIGN UP</string>
+    <string name="emailid">Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_ups">SIGN UP</string>
+</resources>
