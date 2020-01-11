@@ -39,7 +39,20 @@ public class LoginActivity extends AppCompatActivity
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(LoginActivity.this, "Test Application", Toast.LENGTH_SHORT).show();
+
+                if((Uname.getText().toString()).isEmpty()||(Pword.getText().toString()).isEmpty())
+                {
+                    Toast.makeText(LoginActivity.this, "Empty User name or password", Toast.LENGTH_SHORT).show();
+
+                }
+
+                else
+                {
+                    Toast.makeText(LoginActivity.this, "Test Application, Click below option to go to SIGN UP activity", Toast.LENGTH_SHORT).show();
+
+                }
+
+
             }
         });
 
