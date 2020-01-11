@@ -22,6 +22,7 @@ EditText uname,email,pword,againpword;
         email=(EditText)findViewById(R.id.email);
         pword=(EditText)findViewById(R.id.Pword);
         againpword=(EditText)findViewById(R.id.CNFPword);
+        Toast.makeText(this, "Welcome", Toast.LENGTH_SHORT).show();
 
 
         signupp.setOnClickListener(new View.OnClickListener() {

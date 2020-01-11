@@ -27,6 +27,7 @@ public class LoginActivity extends AppCompatActivity
         Pword=(EditText)findViewById(R.id.Pword);
         signup=(TextView)findViewById(R.id.signup);
 
+        Toast.makeText(this, "Welcome", Toast.LENGTH_SHORT).show();
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v)

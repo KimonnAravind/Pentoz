@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-   android:background="@drawable/bk"
+   android:background="@drawable/head"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -12,10 +12,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="314dp"
-
+        android:layout_marginTop="146dp"
         android:text="@string/free_music_application"
         android:textAlignment="center"
+        android:textColor="@android:color/white"
 
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -26,10 +26,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="367dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="193dp"
         android:text="@string/we_can_all_think_of_at_least_one_song_that_when_we_hear_it_triggers_and_emotional_response_it_might_be_a_song_tha"
         android:textAlignment="center"
+        android:textColor="@android:color/white"
         android:textSize="17sp" />
 
     <Button
@@ -38,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="257dp"
+        android:layout_marginBottom="217dp"
         android:background="@drawable/input_design"
         android:text="@string/get"
         android:textAlignment="center"
